@@ -1,0 +1,49 @@
+# -----------------------------
+# dbt build artifacts
+# -----------------------------
+target/
+dbt_packages/
+logs/
+
+# -----------------------------
+# Python cache & artifacts
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dbt
+*.sql-journal
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+.venv-rfm/
+env/
+venv/
+
+# -----------------------------
+# Credentials / sensitive files
+# -----------------------------
+profiles.yml
+.env
+*.key
+*.pem
+*.p12
+
+# -----------------------------
+# System & IDE files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Temporary & log files
+# -----------------------------
+*.log
+*.tmp
+*.bak
+*.swp

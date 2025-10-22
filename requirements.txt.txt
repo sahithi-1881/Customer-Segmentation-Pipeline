@@ -1,0 +1,6 @@
+dbt-core==1.10.9
+dbt-snowflake==1.10.0
+snowflake-connector-python==3.17.2
+pandas==2.3.2
+scikit-learn==1.5.2
+numpy>=1.26.0
