@@ -4,7 +4,6 @@
 This project implements an **end-to-end customer segmentation pipeline** using **Snowflake**, **dbt**, and **Python (KMeans clustering)**.  
 It transforms raw online retail transactions into clean, feature-engineered datasets and then groups customers based on purchasing behavior.
 
----
 
 ## 🧠 Project Overview
 
@@ -32,7 +31,7 @@ Using **RFM (Recency, Frequency, Monetary)** metrics and **KMeans clustering**, 
      - **Cluster 1** → Low Frequency & Low Spending = At-Risk  
      - **Cluster 2** → Moderate Frequency & Spending = Potential Loyalists
 
----
+
 
 ## 🧱 Tech Stack
 
@@ -43,6 +42,6 @@ Using **RFM (Recency, Frequency, Monetary)** metrics and **KMeans clustering**, 
 | Modeling / ML | **Python**, **pandas**, **scikit-learn** |
 | Visualization | **Tableau** |
 
----
+
 
 
